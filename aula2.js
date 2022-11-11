@@ -4,16 +4,17 @@ OBS:
 um ""=""  para atribuição
 ""=="" para converter texto em numero e retornar númerico
 Recomendado utilizar para comparar utilizar os "==="  */
-const numero = 0;
+
+const numero = 8;
 
 /*se o número é divisivel por 2*/
 
-const eNumeroPar = numero % 2 === 0;
+const isNumeroPar = numero % 2 === 0;
 
 if(numero === 0){
     console.log('Número imparcial');
 
-}else if(eNumeroPar){
+}else if(isNumeroPar){
 console.log('É um número par');
 
 }else {
